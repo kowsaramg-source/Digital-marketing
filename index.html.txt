@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Course</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">DM Academy</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#curriculum">Curriculum</a></li>
+        <li><a href="#instructor">Instructor</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Master Digital Marketing in 8 Weeks</h1>
+      <p>Learn SEO, Social Media, Ads, and Analytics with real-world projects.</p>
+      <a href="#pricing" class="btn">Enroll Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About the Course</h2>
+    <p>
+      This course is designed for students, entrepreneurs, and professionals 
+      who want to build a strong foundation in digital marketing. You’ll gain 
+      practical skills to grow businesses online and build a personal brand.
+    </p>
+  </section>
+
+  <!-- Curriculum Section -->
+  <section id="curriculum" class="section alt-bg">
+    <h2>Curriculum</h2>
+    <div class="modules">
+      <div class="module">SEO Fundamentals</div>
+      <div class="module">Content Marketing</div>
+      <div class="module">Social Media Strategy</div>
+      <div class="module">Email Marketing</div>
+      <div class="module">Paid Advertising (Google & Meta)</div>
+      <div class="module">Analytics & Reporting</div>
+    </div>
+  </section>
+
+  <!-- Instructor Section -->
+  <section id="instructor" class="section">
+    <h2>Your Instructor</h2>
+    <div class="instructor">
+      <img src="https://via.placeholder.com/200" alt="Instructor">
+      <div>
+        <h3>Jane Doe</h3>
+        <p>
+          With 10+ years of experience in digital marketing, Jane has helped 
+          Fortune 500 companies and startups achieve massive online growth. 
+          She specializes in SEO, content strategy, and paid advertising.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="section alt-bg">
+    <h2>Pricing</h2>
+    <div class="pricing-cards">
+      <div class="card">
+        <h3>Basic</h3>
+        <p>$99</p>
+        <ul>
+          <li>Course Materials</li>
+          <li>Video Lessons</li>
+          <li>Certificate</li>
+        </ul>
+        <a href="#contact" class="btn">Choose</a>
+      </div>
+      <div class="card featured">
+        <h3>Pro</h3>
+        <p>$199</p>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>1-on-1 Mentorship</li>
+          <li>Live Q&A Sessions</li>
+        </ul>
+        <a href="#contact" class="btn">Choose</a>
+      </div>
+      <div class="card">
+        <h3>Premium</h3>
+        <p>$299</p>
+        <ul>
+          <li>Everything in Pro</li>
+          <li>Exclusive Projects</li>
+          <li>Job Placement Support</li>
+        </ul>
+        <a href="#contact" class="btn">Choose</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section">
+    <h2>What Our Students Say</h2>
+    <div class="testimonials">
+      <blockquote>
+        "This course helped me land my first freelance clients in just 2 months!"  
+        <cite>- Sarah K.</cite>
+      </blockquote>
+      <blockquote>
+        "Clear, practical, and effective. I grew my business’ Instagram by 300%."  
+        <cite>- James L.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section alt-bg">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Digital Marketing Academy | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
